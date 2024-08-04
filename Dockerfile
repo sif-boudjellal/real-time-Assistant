@@ -45,5 +45,5 @@ COPY . .
 RUN python myagent.py download-files
 
 # Run the application.
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["python", "worker.py"]
 CMD ["start"]
