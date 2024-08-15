@@ -32,15 +32,15 @@ export OPENAI_API_KEY=<your OpenAI API key>
 
 ### Download files (in this case, it downloads the model weights for Voice-activity-detection):
 
-`python minimal_assistant.py download-files`
+`python worker.py download-files`
 
 ### Run the agent worker:
 
-`python minimal_assistant.py dev`
+`python worker.py dev`
 
 OR
 
-`python minimal_assistant.py start`
+`python worker.py start`
 
 ### Test with a LiveKit frontend:
 
